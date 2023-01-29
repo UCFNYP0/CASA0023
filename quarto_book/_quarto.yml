@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "CASA0023 Remotely Sensing Cities and Environments"
+  author: "Yujin Pan"
+  date: "2023/1/27"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
